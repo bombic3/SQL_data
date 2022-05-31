@@ -9,6 +9,18 @@ SELECT * FROM employees WHERE manager_id IS null;
 SELECT * FROM employees WHERE salary > 400 AND job_id = 'IT_PROG';
 
 
+SELECT * FROM employees WHERE salary > 400 
+AND job_id = 'IT_PROG' 
+OR job_id = 'FI_ACCOUNT';
+
+SELECT * FROM employees WHERE employee_id <> 105;
+
+SELECT * FROM employees WHERE manager_id IS NOT null;
+
+SELECT LOWER (last_name) LOWER적용, 
+       UPPER (last_name) UPPER적용, 
+       INITCAP(email) INITCAP적용
+FROM employees;
 
 
 
