@@ -1,0 +1,6 @@
+SHOW USER;
+--USER이(가) "SYSTEM"입니다.
+
+-- ALTER = 변경
+ALTER USER hr ACCOUNT UNLOCK IDENTIFIED BY 1234;
+--User HR이(가) 변경되었습니다.
